@@ -1,4 +1,66 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
 .mainDiv {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    
+}
+
+.loginDiv {
+    padding: 15px;
+    justify-content: center;
+}
+
+.loginDiv-svg {
+    height: 2.75rem;
+    align-self: flex-start;
+}
+
+.loginDiv-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginDiv-buttons-register {
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 161, 242);
+    min-height: 39px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0px;
+
+}
+
+.loginDiv-buttons-login {
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 161, 242);
+    min-height: 39px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 1px;
+    border-color:  rgb(29, 161, 242);
+}
+.loginDiv-title > h1 {
+    text-align: center;
+}
+
+.loginDiv-buttons > h1 {
+    font-size: 15px;
 }
